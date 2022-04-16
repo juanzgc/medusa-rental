@@ -17,7 +17,7 @@
     "medusa-payment-manual": "^1.0.8",
     "medusa-payment-stripe": "^1.1.30",
     "mongoose": "^5.13.3",
-    "typeorm": "^0.2.36"
+    "typeorm": "0.2.36"
   },
   "repository": "https://github.com/medusajs/medusa-starter-default.git",
   "keywords": [
