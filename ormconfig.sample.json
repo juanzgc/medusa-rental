@@ -1,0 +1,22 @@
+{
+  "type": "postgres",
+  "url": "postgres://localhost/medusa",
+  "synchronize": false,
+  "entities": [
+    "./models/**/*{.js,.ts}",
+    "node_modules/@medusajs/medusa/dist/models/**/*{.js,.ts}"
+  ],
+  "migrations": [
+    "./migrations/**/*{.js,.ts}",
+    "node_modules/@medusajs/medusa/dist/migrations/**/*{.js,.ts}"
+  ],
+  "subscribers": [
+    "./subscribers/**/*{.js,.ts}",
+    "node_modules/@medusajs/medusa/dist/subscribers/**/*{.js,.ts}"
+  ],
+  "cli": {
+    "entitiesDir": "src/models",
+    "migrationsDir": "src/migrations",
+    "subscribersDir": "src/subscriber"
+  }
+}
